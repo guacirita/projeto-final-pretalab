@@ -1,0 +1,18 @@
+
+.header{
+    text-align: center;
+    background: silver;
+    height: 500px;  
+}
+
+.header h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.header img{
+    margin-top: 2rem;
+    width: 99vw;
+    height: 54wh;
+}
