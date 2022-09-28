@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 import { List } from 'phosphor-react'
 import styles from './menu.module.css'
 
-function Menu(){
+function Menu() {
     const [open, setOpen] = useState(false)
 
-    function handleMenu(){
+    function handleMenu() {
         open ? setOpen(false) : setOpen(tru)
     }
 
-    return(
+    return (
         <nav>
             <List size={32} isOpen={open} onClick={handleMenu} className={styles.hamburguer} />
             <ul className={open ? styles.hamburguerOpen : styles.menu}>

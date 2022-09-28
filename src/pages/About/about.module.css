@@ -13,8 +13,8 @@
 }
 
 .header img {
-    width: 92%;
-    height: 5%;
+    width: 90vw;
+    height: 70vh;
     padding-bottom: 4rem;
 }
 
@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: aliceblue; 
 }
 
 .content {
@@ -50,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 .cards {
     display: flex;
@@ -82,21 +82,22 @@
     font-size: 1.5rem;
 }
 
-.cardsSenoritas iframe {
+.cardsSenoritas  {
     display: flex;
     justify-content:center;
     align-items: center;
     padding: 2rem;
-    width: 560px;
-    height: 315px;
+    
 }
 
-.cardSenoritas{
+.cardSenoritas iframe{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    width: 560px;
+    height: 315px;
 }
 
 .cardSenorita iframe{
@@ -124,7 +125,11 @@
         padding: 2rem;
         font-size: 2rem;
     }
-
+ 
+    .header img {
+        width: 70vw;
+        height: 35vh;
+    }
     .imagemCard {
         width: 30rem;
         height: 30rem;
@@ -137,10 +142,18 @@
 
     .conteudo {
         width: 100%;
-        padding-top: 4rem;
+        padding-top: 1rem;
+        padding-bottom: 7rem;
+        flex-direction: column;
+        margin-left:0;
+        margin-right: 0;
+    }
+
+    .content {
+        width: 100%;
         padding-bottom: 4rem;
         flex-direction: column;
-    }
+    } 
 
     .cards {
         width: 60%;
@@ -148,13 +161,25 @@
         flex-direction: column;
     }
 
+    .card{
+        margin-left: 2.5rem;
+        margin-right: 2rem;
+    }
+
+.cardsContainer {
+    width: 100%;
+    flex-direction: column;
+}
+
     .textos {
         font-size: 1.1rem;
+        flex-direction: column;
+        margin: 2rem;
     }
 
     .imagemCard {
-        width: 15rem;
-        height: 15rem;
+        width: 11rem;
+        height: 11rem;
     }
 
     .texto {
@@ -162,17 +187,14 @@
         font-size: 1.2rem;
         text-align: center;
         padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
     .cardSenorita iframe{
-        width: 400px;
-        height: 220px;
-        margin-left: auto;
+        width: 360px;
+        height: 200px;
+        margin: 0;
+        margin-top: 3rem;
     } 
 
-/* 
-    iframe {
-        width: 400px;
-        height: 220px;
-    } */
 }
