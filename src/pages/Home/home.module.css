@@ -22,7 +22,7 @@
   .subtitulo {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     height: 300%;
     text-align: center;
     display: flex;
@@ -63,7 +63,7 @@
   
   .tituloCards {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding-bottom: 3rem;
     font-style: oblique;
     color: darkslategrey;
@@ -79,12 +79,12 @@
   .imagemCard {
     width: 20rem;
     height: 20rem;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   
   .textos {
-    margin: 1.5rem;
-    font-size: 1.2rem;
+    margin: 2rem;
+    font-size: 1rem;
     text-align:start;
     line-height: 21px;
     font-style: oblique;
